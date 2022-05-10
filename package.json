@@ -1,0 +1,11 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "calculator javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emiliano Barea <emilianobarea8@gmail.com>",
+  "license": "MIT"
+}

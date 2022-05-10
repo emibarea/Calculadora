@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <header>
+      <h1>Calculadora JavaScript</h1>
+    </header>
+    <main>
+      <div class="calculator_container">
+        <div class="respuesta" id="respuesta">
+          <div class="display">
+            <div class="vanterior" id="valorAnterior"></div>
+            <div class="vactual" id="valorActual"></div>
+          </div>
+        </div>
+        <div class="buttons-container">
+          <button id="borrar" onclick="display.borrar()">AC</button>
+
+          <button id="siete" class="num">7</button>
+
+          <button id="ocho" class="num">8</button>
+
+          <button id="nueve" class="num">9</button>
+
+          <button id="dividir" class="ope" value="dividir">/</button>
+
+          <button id="cuatro" class="num">4</button>
+
+          <button id="cinco" class="num">5</button>
+
+          <button id="seis" class="num">6</button>
+
+          <button id="multiplicar" class="ope" value="multiplicar">X</button>
+
+          <button id="tres" class="num">3</button>
+
+          <button id="dos" class="num">2</button>
+
+          <button id="uno" class="num">1</button>
+
+          <button id="menos" class="ope" value="restar">-</button>
+
+          <button id="cero" class="num">0</button>
+
+          <button id="punto" class="num">.</button>
+
+          <button id="igual" class="ope" value="igual">=</button>
+
+          <button id="mas" class="ope" value="sumar">+</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h2>Designed and Coded By<br />Emiliano Barea</h2>
+    </footer>
+    <script src="./calculadora.js"></script>
+    <script src="./display.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
